@@ -34,7 +34,7 @@ $ fab -H <primary_host> initiate_replica_set
 ```
 $ fab -H <secondary_host> run_weave:ip="<primary ip>"
 $ fab -H <secondary_host> build_mongodb
-$ fab -H <secondary_host> run_mongodb:ip="10.2.0.2"
+$ fab -H <secondary_host> run_mongodb:ip="10.2.0.<1+n>"
 ```
 
 #### Initiate replica set and add members 
