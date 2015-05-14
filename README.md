@@ -8,6 +8,7 @@ $ virtualenv easy-replica-mongo
 $ cd easy-replica-mongo
 $ git clone git@github.com:tedostrem/easy-replica-mongo.git app
 $ source bin/activate
+$ cd app
 $ pip install -r requirements.txt
 $ ssh-add <all of your keyfiles>
 ```
