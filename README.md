@@ -3,13 +3,14 @@ Replica Set MongoDB Fabric Docker/Weave Fabric deploy scripts
 
 
 ### Installation on local machine
+```
 $ virtualenv easy-replica-mongo
 $ cd easy-replica-mongo
 $ git clone git@github.com:tedostrem/easy-replica-mongo.git app
 $ source bin/activate
 $ pip install -r requirements.txt
 $ ssh-add <all of your keyfiles>
-
+```
 
 OK now we can start deploying stuff..
  
