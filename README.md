@@ -50,6 +50,7 @@ $ fab -H <primary_host> initiate_rs
 
 # Per host
 $ fab -H <primary_host> add_rs_member:ip="<secondary_weaver_ip>"
+```
 
 ## Example bash script
 ```
