@@ -29,6 +29,7 @@ $ fab -H <primary_host> run_weave
 $ fab -H <primary_host> build_mongodb
 $ fab -H <primary_host> run_mongodb:ip="10.2.0.1"
 $ fab -H <primary_host> initiate_replica_set
+$ fab -H <primary_host> fix_servername:ip="10.2.0.1" # Server name cant be docker container id
 ```
 
 #### Secondaries
