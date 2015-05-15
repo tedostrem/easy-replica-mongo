@@ -1,0 +1,13 @@
+Fabric==1.10.1
+argparse==1.2.1
+backports.ssl-match-hostname==3.4.0.2
+docker-fabric==0.3.5
+docker-map==0.3.3
+docker-py==1.2.2
+ecdsa==0.13
+paramiko==1.15.2
+pycrypto==2.6.1
+requests==2.7.0
+six==1.9.0
+websocket-client==0.30.0
+wsgiref==0.1.2

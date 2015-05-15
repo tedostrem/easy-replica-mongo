@@ -94,5 +94,5 @@ def initiate_rs():
 
 @task
 def add_rs_member(ip):
-    run('docker exec -it mongodb mongo --eval "printjson(rs.add("%s"))"' %
+    run('docker exec -it mongodb mongo --eval "printjson(rs.add(\'%s\'))"' %
         (ip, ))
