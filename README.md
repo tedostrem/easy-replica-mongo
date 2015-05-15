@@ -28,6 +28,9 @@ $ fab -H <host> install_weave
 $ fab -H <primary_host> run_weave
 $ fab -H <primary_host> build_mongodb
 $ fab -H <primary_host> run_mongodb:ip="10.2.0.1"
+
+# Here we need to sleep about 10 seconds until mongodb is started
+
 $ fab -H <primary_host> initiate_rs
 $ # Server name cant be docker container id
 $ fab -H <primary_host> fix_servername:ip="10.2.0.1"
@@ -38,6 +41,7 @@ $ fab -H <primary_host> fix_servername:ip="10.2.0.1"
 $ fab -H <secondary_host> run_weave:ip="<primary ip>"
 $ fab -H <secondary_host> build_mongodb
 $ fab -H <secondary_host> run_mongodb:ip="10.2.0.<1+n>"
+# Remember to sleep a bit here
 ```
 
 #### Initiate replica set and add members 
